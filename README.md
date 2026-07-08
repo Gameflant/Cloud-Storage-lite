@@ -4,8 +4,8 @@
 ## 项目文件说明
 ```
 Cloud-Storage-TCP/
-├── server.py       # 云存储服务端（部署在存放文件的设备）
-├── user.py         # 云存储客户端（任意设备连接服务端）
+├── Server-IPv6.py       # 云存储服务端（部署在存放文件的设备）
+├── User-IPv6.py         # 云存储客户端（任意设备连接服务端）
 ├── pwd_config.json # 服务端自动生成，存储访问密码
 ├── server_storage/ # 服务端自动生成，存放所有云端文件
 └── client_download/# 客户端自动生成，存放下载到本地的文件
